@@ -1,0 +1,8 @@
+- March, 22: I just charged the dataset of 5 objects in my dataset and created the repository I think
+    - the next step is to create the algorithm for charge the data to google collab and then 
+    - generate labels 
+    - split data 
+    - take the test data and split again 
+    - and use the test subset data to blurr the images 
+    - then try to do a CNN or sth 
+- March 
