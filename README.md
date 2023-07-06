@@ -1,10 +1,4 @@
 # Deep Reinforcement Learning for Object Classification with Blurred Images 
 
-This is a repository for my thesis research which its purpose is basically to use a Deep Reinforcement Learning architecture for object classification on blurred images.  
-
-With this project I try to make posible that the accuracy of the object classification improves even was trained in clear images but for the test is faced with blurred motion images. 
-
-First, we will try a CNN approach for object classification and optimization of it.
-
-Then there is the Deep Reinforcement Learning for modifying the quality of the data in order to use the trained model. 
-
+Abstract: 
+In modern times, robots are being assigned tasks that demand a higher level of caution. For instance, assistant robots are often designed to aid the elderly and childcare providers,requiring them to detect potentially harmful objects.This thesis delves into the complex, yet essential, task of developing algorithms for processing blurred iCub images in the robotics field, typically addressed with Convolu- tional Neural Networks (CNN). We propose a Deep Reinforcement Learning (DRL) framework that uses a pre-trained CNN model as a reward function, aiming to optimize classification accuracy. Ad- ditionally, the proposed research seeks to balance blur for optimal identification. The research introduces a Deep Q-learning (DQL) al- gorithm, which determines to blur, deblur, or maintain an image’s state. While computational challenges may affect these new tech- niques, our preliminary results showed that DQL did not lead to increase accuracy compared to the standalone use of the CNN. The accuracy remained at 60.4%, identical to the CNN’s performance when confronted with the same blurred data. It’s worth noting that the CNN achieved a remarkable accuracy of 98.2% on the validation data, which was not blurred. Despite these findings, we still believe that this work may provide a foundation for future research into image classification on blurred images. Consequently, we recommend addressing these limitations in future work and experimenting with different blurring and blind deblurring techniques
